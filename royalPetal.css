@@ -1,0 +1,33 @@
+/*Style to select the font family of .fancy class*/
+.fancy {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/*Styling to ensure the modal is fixed in postion on screen and removed from the flow of the html as well as setting the z-index so that it lies above all other elements when made visible*/
+#modalBack {
+    display: none;
+    background-color: rgba(144, 124, 147, 0.233);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index:4;
+}
+/*Style to set the size and shape of the modal that apears on the catalogue page holding details about the items for sale*/
+#modal {
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 5;
+    text-align: center;
+    background-color: rgba(255, 229, 249, 0.959);
+    border: solid black 3px;
+    border-radius: 3%;
+}
+/*Animation for the items on the catalogue page to expand on hover*/
+.catalogueImage {
+    transition: 0.5s;
+    border: none;
+}
+/*Css changes during the animation on hover for items on catalogue page*/
+.catalogueImage:hover {
+    transform: scale(1.1)
+}
+

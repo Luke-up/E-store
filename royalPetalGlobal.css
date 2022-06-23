@@ -1,0 +1,151 @@
+/*The navbar has absolute positioning to remove it from the flow of the html and a relative position to its container*/
+#navHeading{
+    height:80%;
+    position:absolute;
+    left:35%;
+    top:10%;
+}
+/*Seen in the dropdown menu, li have no bullet points*/
+ul {
+    list-style-type:none;
+}
+/*The Dial svg in the navbar is positioned to a specific place with absolute position and specific margins*/
+#dial1 {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left:2%;
+    width: 20%;
+    /*Z index ensures the element is above the other elements and not blocked*/
+    z-index: 3;
+}
+/*CSS animation for the dial, causing it to rotate on hover*/
+:hover#dial1{
+    animation-duration:4s;
+    animation-name:rotate;
+}
+/*The animation tied to the dial on the Navbar element*/
+@keyframes rotate {
+    0%   {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+  }
+/*The square sgv element in the Navbar is positioned to a specific place with absolute position and specific margins*/
+#display {
+    display: block;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    width: 22%;
+    z-index: 2;
+}
+/*The cart svg element in the Navbar is positioned to a specific place with absolute position and specific margins*/
+#CartButton{
+    display: block;
+    position: absolute;
+    top: 35%;
+    right: 8%;
+    width: 8%;
+    z-index: 3;
+}
+/*The cart svg is set to a dashed line propertity of which one dash is equal to the length of the entire svg path*/
+:hover#CartButton {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    /*Animation is set to run the dash over the path, causing it to become 'visable'*/
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-name: write;
+    animation-timing-function: ease;
+}
+/*Animation called by the cart svg*/
+@keyframes write {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+/*The menu svg element is positioned to a specific place with absolute position and specific margins*/
+#menuTop{
+    display: block;
+    position: absolute;
+    top: 35%;
+    left:8%;
+    z-index: 2;
+    width: 8%;
+}
+/*The menu svg element is positioned to a specific place with absolute position and specific margins*/
+#menuMid{
+    display: block;
+    position: absolute;
+    top: 45%;
+    left:8%;
+    z-index: 2;
+    width: 8%;
+}
+/*The menu svg element is positioned to a specific place with absolute position and specific margins*/
+#menuLow{
+    display: block;
+    position: absolute;
+    top: 55%;
+    left:8%;
+    z-index: 2;
+    width: 8%;
+}
+/*The list elements in the drop menu are set to be invisible unless called by the drop down menu function. The background is an svg image that apears as a rectangle*/
+li{
+    color:black;
+    text-decoration:none;
+    display:none;
+    background-image: url(images/menuDrop.svg); 
+    background-size: 100%;
+    background-position:center left;
+    background-repeat:no-repeat;
+
+}
+/*Dropdown menu is postioned absolute to remove it from the flow of html*/
+#dropDownMenu{
+    position:absolute;
+}
+/*This heading element on the home page screen has padding to make space for the navbar as it contains a link to this heading*/
+#ecoInfo{
+    padding-top:23vh;
+}
+/*This heading element on the home page screen has padding to make space for the navbar as it contains a link to this heading*/
+#aboutUs{
+    padding-top:23vh;
+}
+/*All links in the document apear as normal text*/
+a {
+    text-decoration: none;
+}
+/*The body element has a repeating picture background*/
+body{
+    background-image: url(images/backgroundTile.svg);
+    background-size: 30%;
+}
+/*Font change for text elements*/
+p, 
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Filter effect to sature picture links at the bottom of the page on hover*/
+:hover.muffinImg{
+  filter: saturate(250%);
+}
+/*Style to change the color of the text*/
+.orangeText{
+    color:orangered;
+}
+/*Style to set with of textarea element on contact page*/
+.queryForm {
+    width:70%;
+}
+/*Style to hide ah h element on contact page*/
+#thanksMessage{
+    display:none;
+}
+/*Style to set the z index of the navbar so that it lies underneath any modal that is called*/
+#NavBar{
+    z-index:3;
+}
