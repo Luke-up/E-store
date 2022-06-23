@@ -2,7 +2,8 @@
 A online storefront project.
 The project is a simple website that displays various products on offer.
 The website has basic functionality allowing for a interactable *customer cart*.
-This project was created to display profficiency in **html**, **css** and **bootstrap**, **javascript** and **jquery**.
+This project was created to display profficiency in ==html, css and bootstrap, javascript and jquery.==
+
 ---
 ## Table of contents
 1. Description
