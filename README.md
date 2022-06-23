@@ -2,7 +2,7 @@
 A online storefront project.
 The project is a simple website that displays various products on offer.
 The website has basic functionality allowing for a interactable *customer cart*.
-This project was created to display profficiency in ==html, css and bootstrap, javascript and jquery.==
+This project was created to display profficiency in **html, css and bootstrap, javascript and jquery.**
 
 ---
 ## Table of contents
@@ -23,7 +23,7 @@ This project was created to display profficiency in ==html, css and bootstrap, j
   - Google Chrome
   - Windows Internet Explorer
   - Mozilla Firefox
-- Navigate to the file location and right click on the ==RoyalPetalHome.html== file.
+- Navigate to the file location and right click on the **RoyalPetalHome.html** file.
 ![Windows folder containing various files] (
 - Choose the *open with* option on the menu.
 - Select the browser you wish to use.
