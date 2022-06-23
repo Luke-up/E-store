@@ -24,7 +24,7 @@ This project was created to display profficiency in **html, css and bootstrap, j
   - Windows Internet Explorer
   - Mozilla Firefox
 - Navigate to the file location and right click on the **RoyalPetalHome.html** file.
-![Windows folder containing various files](Images/readme1.jpg)
+![Windows folder containing various files](main/Images/readme1.jpg)
 - Choose the *open with* option on the menu.
 - Select the browser you wish to use.
 - Browser should open and display the website landing page.
