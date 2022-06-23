@@ -24,16 +24,17 @@ This project was created to display profficiency in **html, css and bootstrap, j
   - Windows Internet Explorer
   - Mozilla Firefox
 - Navigate to the file location and right click on the **RoyalPetalHome.html** file.
-![Windows folder containing various files] (
+![Windows folder containing various files](Images/readme1.jpg)
 - Choose the *open with* option on the menu.
 - Select the browser you wish to use.
 - Browser should open and display the website landing page.
-![Website landing page] (
+![Website landing page](Images/readme2.jpg)
 - Click the menu button in the top left hand corner of the navigation bar to see other page options.
-![Website navigation drop down menu] (
+![Website navigation drop down menu](Images/readme3.jpg)
 - Click on the cart image to be directed to the cart page.
-![Illustration of a shopping cart] (
+![Illustration of a shopping cart](Images/readme4.jpg)
 - Scroll to the bottom of the page in order to see the social media navigation links.
+- ![Muffin illustrations showing names of Social Media platforms](Images/readme5.jpg)
 ---
 ## Credits
 All works and code are attributed the author Luke Paine in conjuction with the Hyperion Dev Web development course.
