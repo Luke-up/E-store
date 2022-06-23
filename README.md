@@ -1,26 +1,22 @@
 # Royal Petal E-store
----
 A online storefront project.
 The project is a simple website that displays various products on offer.
 The website has basic functionality allowing for a interactable *customer cart*.
 This project was created to display profficiency in **html**, **css** and **bootstrap**, **javascript** and **jquery**.
-
-## Table of contents
 ---
+## Table of contents
 1. Description
 2. Table of contents
 3. Installation
 4. Usage
 5. Credits
-
-## Installation
 ---
+## Installation
 - Move files to a local directory.
 - Make sure to keep files organized in the original structure.
   - (Relationships between files rely on pathways that cannot be altered)
-
-## Usage
 ---
+## Usage
 - After relocating the files, choose a web browser in which to open the website. 
 - Choose from recommended browsers:
   - Google Chrome
@@ -37,9 +33,8 @@ This project was created to display profficiency in **html**, **css** and **boot
 - Click on the cart image to be directed to the cart page.
 ![Illustration of a shopping cart] (
 - Scroll to the bottom of the page in order to see the social media navigation links.
-
-## Credits
 ---
+## Credits
 All works and code are attributed the author Luke Paine in conjuction with the Hyperion Dev Web development course.
 
 
