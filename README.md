@@ -24,20 +24,17 @@ This project was created to display profficiency in **html, css and bootstrap, j
   - Windows Internet Explorer
   - Mozilla Firefox
 - Navigate to the file location and right click on the **RoyalPetalHome.html** file.
-![Windows folder containing various files](main/Images/readme1.jpg)
+![Windows folder with various files](https://user-images.githubusercontent.com/69281996/175389839-8d418eac-05a3-4c5b-b48c-280ae8f9f578.JPG)
 - Choose the *open with* option on the menu.
 - Select the browser you wish to use.
 - Browser should open and display the website landing page.
-![Website landing page](Images/readme2.jpg)
+![Landing page for e-store](https://user-images.githubusercontent.com/69281996/175390286-36fc6247-f541-434a-a917-b2e6598e04e0.JPG)
 - Click the menu button in the top left hand corner of the navigation bar to see other page options.
-![Website navigation drop down menu](Images/readme3.jpg)
+![Navigation drop down menu](https://user-images.githubusercontent.com/69281996/175390323-6279b176-6640-4e3f-a983-f8f6f80a107a.JPG)
 - Click on the cart image to be directed to the cart page.
-![Illustration of a shopping cart](Images/readme4.jpg)
+![Shopping cart illustration](https://user-images.githubusercontent.com/69281996/175390361-b400fe3b-4dd6-4fd8-8229-979ce263ec77.JPG)
 - Scroll to the bottom of the page in order to see the social media navigation links.
-- ![Muffin illustrations showing names of Social Media platforms](Images/readme5.jpg)
+![Muffin illustrations with names of Social Media platforms](https://user-images.githubusercontent.com/69281996/175390387-3ab5cb9e-6f40-432c-909a-4c89cea86eef.JPG)
 ---
 ## Credits
 All works and code are attributed the author Luke Paine in conjuction with the Hyperion Dev Web development course.
-
-
-
